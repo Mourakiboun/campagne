@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>AFFICHAGE</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link rel="shortcut icon" href="icon.png">
+<LINK href="style.css" rel="stylesheet" type="text/css">
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+
+</head>
+<body>
+<div id='header'>
+<div id="title">تعليق لافتات خارج الأماكن  المخصصة لها</div>
+<a style="text-decoration:none;"href="http://www.kawakibi.org/"><img src='img/foot_right.png' id='foot_right'></a>
+</div id='header'>
+<div id='map'></div>
+<a style="text-decoration:none;"href="http://www.kawakibi.org/"><img src='img/logo.png' id='logo'></a>
+<script>
+var map = L.mapbox.map('map', 'tunisia.map-u3z7fdnm,mehdi118218.jnn9efai', {attributionControl: false})
+    .setView([35.24,9.71], 7);
+</script>
+</body>
+</html>
